@@ -1,5 +1,9 @@
+import { Hero } from "./components/Hero"
+
 export const App = () => {
   return (
-    <div>App</div>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero/>
+    </main>
   )
 }
