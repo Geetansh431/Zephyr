@@ -1,11 +1,21 @@
-import { Hero } from "./Components/Hero"
-import { About } from "./Components/About"
+import { About } from "./components/About";
+import { Hero } from "./components/Hero";
+import { NavBar } from "./components/Navbar";
+import { Features } from "./components/Features";
+import { FloatingImage as Story } from "./components/Story";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
-export const App = () => {
+export function App() {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
-      <Hero/>
-      <About/>
+      <NavBar />
+      <Hero />
+      <About />
+      <Features />
+      <Story />
+      <Contact />
+      <Footer />
     </main>
-  )
+  );
 }

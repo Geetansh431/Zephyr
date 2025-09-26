@@ -4,9 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   width: 100dvw;
   overflow-x: hidden;
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
 }

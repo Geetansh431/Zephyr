@@ -53,4 +53,3 @@ export const AnimatedTitle = ({ title, containerClass }) => {
     </div>
   );
 };
-
