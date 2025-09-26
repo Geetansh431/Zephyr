@@ -1,10 +1,10 @@
-import { About } from "./components/About.jsx";
-import { Hero } from "./components/Hero.jsx";
-import { NavBar } from "./components/Navbar.jsx";
-import { Features } from "./components/Features.jsx";
-import { FloatingImage as Story } from "./components/Story.jsx";
-import { Contact } from "./components/Contact.jsx";
-import { Footer } from "./components/Footer.jsx";
+import { About } from "./Components/About.jsx";
+import { Hero } from "./Components/Hero.jsx";
+import { NavBar } from "./Components/Navbar.jsx";
+import { Features } from "./Components/Features.jsx";
+import { FloatingImage as Story } from "./Components/Story.jsx";
+import { Contact } from "./Components/Contact.jsx";
+import { Footer } from "./Components/Footer.jsx";
 
 export function App() {
   return (
