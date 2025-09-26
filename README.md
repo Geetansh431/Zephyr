@@ -65,47 +65,7 @@ Enter the Metagame Layer with Zephyr - an immersive web experience that transfor
 - **ESLint** - Code quality and consistency
 - **Prettier** - Code formatting
 - **Tailwind CSS IntelliSense** - Enhanced development experience
-
-## 🚀 Quick Start
-
-### Prerequisites
-- **Node.js** (v18.0.0 or higher)
-- **npm** (v8.0.0 or higher)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/zephyr.git
-
-# Navigate to project directory
-cd zephyr
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Visit [http://localhost:5173](http://localhost:5173) to see the website in action! 🎉
-
-### Development Scripts
-
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Run ESLint
-npm run lint
-```
-
+  
 ## 📁 Project Structure
 
 ```
