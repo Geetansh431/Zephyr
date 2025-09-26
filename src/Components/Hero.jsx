@@ -82,6 +82,22 @@ export const Hero = () => {
 
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
+  // Preload next videos for smoother transitions
+  useEffect(() => {
+    if (!loading && typeof window !== 'undefined') {
+      const preloadNextVideo = () => {
+        const nextIndex = (currentIndex % totalVideos) + 1;
+        const videoEl = document.createElement('video');
+        videoEl.preload = 'metadata';
+        videoEl.src = getVideoSrc(nextIndex);
+      };
+      
+      // Preload next video after a delay
+      const timer = setTimeout(preloadNextVideo, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [currentIndex, loading, totalVideos]);
+
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
